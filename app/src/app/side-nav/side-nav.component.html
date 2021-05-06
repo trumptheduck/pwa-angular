@@ -1,0 +1,18 @@
+<div id="side-nav" [ngClass]="cssClass">
+    <div id="profile">
+        <div id="profile-picture"></div>
+        <div id="name">Username</div>
+        <div id="email">loremipsum@provider.com</div>
+        <button mat-icon-button (click)="toggleVisibility(false)" >
+            <mat-icon >close</mat-icon>
+          </button>
+    </div> 
+    <mat-list id="menu">
+        <mat-list-item matRipple><mat-icon>home</mat-icon><p>Home</p></mat-list-item>
+        <mat-list-item matRipple><mat-icon>account_box</mat-icon> <p>Profile</p> </mat-list-item>
+        <mat-list-item matRipple><mat-icon>info</mat-icon> <p>Info</p> </mat-list-item>
+        <mat-list-item matRipple><mat-icon>shopping_cart</mat-icon> <p>Cart</p> </mat-list-item>
+        <mat-list-item matRipple><mat-icon>update</mat-icon> <p>History</p> </mat-list-item>
+        <mat-list-item matRipple><mat-icon>settings</mat-icon> <p>Settings</p> </mat-list-item>
+    </mat-list>
+</div>

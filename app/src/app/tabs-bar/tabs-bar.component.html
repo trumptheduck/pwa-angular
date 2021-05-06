@@ -1,0 +1,6 @@
+<div id="tabs-bar">
+    <div class="item" routerLink="/" [ngClass]="cssClasses[0]" (click)="selectTab(0)" matRipple [matRippleRadius]="70" [matRippleCentered]="true"><mat-icon>home</mat-icon></div>
+    <div class="item" routerLink="/wishlist" [ngClass]="cssClasses[1]" (click)="selectTab(1)" matRipple [matRippleRadius]="70" [matRippleCentered]="true"><mat-icon>star</mat-icon></div>
+    <div class="item" routerLink="/featured" [ngClass]="cssClasses[2]" (click)="selectTab(2)" matRipple [matRippleRadius]="70" [matRippleCentered]="true"><mat-icon>search</mat-icon></div>
+    <div class="item" routerLink="/profile" [ngClass]="cssClasses[3]" (click)="selectTab(3)" matRipple [matRippleRadius]="70" [matRippleCentered]="true"><mat-icon>person</mat-icon></div>
+</div>
